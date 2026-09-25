@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Roots & Beans</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,17 +12,18 @@
         <nav>
             <a href="index.html">Inicio</a>
             <a href="productos.html">Productos</a>
-            <a href="contactos.html">Ingresar</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="#" onclick="mostrarCarrito();">Ver carrito</a>
         </nav>
     </header>
 
     <main>
         <section>
-            <h2>Productos</h2>
-
-            <div class="contenedor-principal">
-               <div id="contenedor-productos" class="grid-productos"></div>
-            </div>
+            <h2>Bienvenido a Roots & Beans</h2>
+            <p>Bienvenido a nuestra tienda online de café de especialidad y de té organico proveniente de cooperativas de comercio justo. Vendemos granos seleccionados para acompañar extensas jornadas de estudio o trabajo.</p>
+            <center>
+                <button onclick="window.location.href='productos.html'">Ver Productos</button>
+            </center>
         </section>
     </main>
 
@@ -30,5 +31,5 @@
         <p>Roots & Beans Copyright 2026</p>
     </footer>
 </body>
-      <script type="text/javascript" src="productos.js"></script>
+<script type="text/javascript" src="carrito.js"></script>
 </html>
