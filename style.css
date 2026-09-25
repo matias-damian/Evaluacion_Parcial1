@@ -9,3 +9,18 @@ header{
     color: #3E2723;
     text-align: center;
 }
+
+header h1{
+    margin: 0 0 13;
+}
+
+nav a{
+    color: aquamarine ;
+    margin: 0 10;
+    text-decoration: dashed;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
