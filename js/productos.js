@@ -3,37 +3,37 @@ const listaProductos = [
         id: 1,
         nombre: "Te Chai",
         precio: 8000,
-        imagen: "te_chai.jpg"
+        imagen: "img/te_chai.jpg"
     },
     {
         id: 2,
         nombre: "Te Verde",
         precio: 6000,
-        imagen: "te_verde.jpg"
+        imagen: "img/te_verde.jpg"
     },
     {
         id: 3,
         nombre: "Te Menta",
         precio: 10000,
-        imagen: "te_menta.jpg"
+        imagen: "img/te_menta.jpg"
     },
     {
         id: 4,
         nombre: "Café Árabe",
         precio: 12000,
-        imagen: "arabic_coffee.jpg"
+        imagen: "img/arabic_coffee.jpg"
     },
     {
         id: 5,
         nombre: "Café Liberica",
         precio: 15000,
-        imagen: "liberica_coffee.png"
+        imagen: "img/liberica_coffee.png"
     },
     {
         id: 6,
         nombre: "Café Robusta",
         precio: 18000,
-        imagen: "robusta_coffee.jpg"
+        imagen: "img/robusta_coffee.jpg"
     }
 ];
 
