@@ -24,3 +24,8 @@ nav a:hover {
     text-decoration: underline;
 }
 
+main{
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
